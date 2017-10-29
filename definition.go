@@ -22,7 +22,7 @@ type Result struct{
 	Links				Links		`xml:"links"` //TODO - FIGURE THIS OUT 
 	Address				Address		`xml:"address"`
 	Zestimate			Zestimate	`xml:"zestimate"`
-	LocalRealEstate		[]Region	`xml:"localRealEstate>region`
+	LocalRealEstate		[]Region	`xml:"localRealEstate>region"`
 }
 
 type Links struct{

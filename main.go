@@ -45,7 +45,7 @@ func getStations(body []byte) (*Searchresults, error){
 
 func getXMLFile() (*Searchresults, error) {
 	// Open our xmlFile
-	xmlFile, err := os.Open("example.xml")
+	xmlFile, err := os.Open("testData/example.xml")
 	// if we os.Open returns an error then handle it
 	if err != nil {
 		fmt.Println(err)
