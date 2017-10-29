@@ -8,10 +8,8 @@ import (
 	"os"
 	// "github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	// "bytes"
 	"net/url"
 )
-
 
 func setUpConfig(){
 	viper.SetConfigName(".config.dev") 
@@ -22,18 +20,9 @@ func setUpConfig(){
 	}
 }
 
-func getStations(body []byte) (*Searchresults, error){
-	var s = new(Searchresults)
-	err := xml.Unmarshal(body, &s)
-	if (err != nil){
-		fmt.Println("Bad broski: ",err)
-	}
-	return s, err
-}
-
 func getZillowSearchResult(address string, citystatezip string){
 	u, err := url.Parse("http://www.zillow.com/webservice/GetSearchResults.html")
-	checkErr(err)
+	checkErr(err, "URL PARSE ERROR")
 
 	zwsId := viper.GetString("zwsId")
 
@@ -42,41 +31,34 @@ func getZillowSearchResult(address string, citystatezip string){
 	q.Add("zws-id",zwsId)
 	q.Add("address", address)
 	q.Add("citystatezip",citystatezip)
+
 	u.RawQuery = q.Encode()
 	fmt.Println(u)
 }
 
-
 func getXMLFile() (*Searchresults, error) {
-	// Open our xmlFile
 	xmlFile, err := os.Open("testData/example.xml")
-	// if we os.Open returns an error then handle it
-	if err != nil {
-		fmt.Println(err)
-	}
+	checkErr(err,"File Operation Error:")
+
 	defer xmlFile.Close()
+
 	byteValue, _ := ioutil.ReadAll(xmlFile)
 
 	var s = new(Searchresults)
-	// we unmarshal our byteArray which contains our
-	// xmlFiles content into 'users' which we defined above
 	err = xml.Unmarshal(byteValue, s)
-	if err != nil {
-		fmt.Println(err)
-	}
+	checkErr(err,"XML ERROR")
 	
 	return s, err
 }
 
-func checkErr(err error){
+func checkErr(err error, msg string){
 	if err != nil{
-		panic(err)
+		panic(fmt.Errorf("%s %s \n", msg, err))
 	}
 }
 
 func main(){
 	setUpConfig()
-	testing("sam","stillls")
 	// s, err := getXMLFile()
 	// checkErr(err)
 
