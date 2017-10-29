@@ -2,11 +2,12 @@ package main
 
 import (
 	"fmt"
-	// "net/http"
 	"encoding/xml"
 	"io/ioutil"
 	"github.com/spf13/viper"
 	"os"
+	"github.com/jinzhu/gorm"
+    _ "github.com/jinzhu/gorm/dialects/sqlite"
 )
 
 
@@ -42,7 +43,7 @@ func getStations(body []byte) (*Searchresults, error){
 // 	s, err := getStations([]byte(body))
 // }
 
-func getXMLFile(){
+func getXMLFile() (*Searchresults, error) {
 	// Open our xmlFile
 	xmlFile, err := os.Open("example.xml")
 	// if we os.Open returns an error then handle it
@@ -52,19 +53,35 @@ func getXMLFile(){
 	defer xmlFile.Close()
 	byteValue, _ := ioutil.ReadAll(xmlFile)
 
-	var s Searchresults
+	var s = new(Searchresults)
 	// we unmarshal our byteArray which contains our
 	// xmlFiles content into 'users' which we defined above
-	err = xml.Unmarshal(byteValue, &s)
+	err = xml.Unmarshal(byteValue, s)
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println("test: ", s.Response.Results[0].Zestimate.Amount.Value)
+	
+	return s, err
 }
 
 func main(){
 	setUpConfig()
-	getXMLFile()
+	s, err := getXMLFile()
+	if err != nil{
+		panic(err)
+	}
+
+	os.Remove("test.db")
+	db, err := gorm.Open("sqlite3", "test.db")
+	if err != nil {
+	  panic("failed to connect database")
+	}
+	defer db.Close()
+  
+	// Migrate the schema
+	db.AutoMigrate(&Result{})
+
+	db.Create(s.Response.Results[0])
 
 	//fmt.Println(viper.GetString("zwsId"))
 }

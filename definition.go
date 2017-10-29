@@ -18,10 +18,11 @@ type Searchresults struct {
 }
 
 type Result struct{
-	Zpid 		string 		`xml:"zpid"`
-	Links		Links		`xml:"links"` //TODO - FIGURE THIS OUT 
-	Address		Address		`xml:"address"`
-	Zestimate	Zestimate	`xml:"zestimate"`
+	Zpid 				string 		`xml:"zpid"`
+	Links				Links		`xml:"links"` //TODO - FIGURE THIS OUT 
+	Address				Address		`xml:"address"`
+	Zestimate			Zestimate	`xml:"zestimate"`
+	LocalRealEstate		[]Region	`xml:"localRealEstate>region`
 }
 
 type Links struct{
@@ -69,4 +70,21 @@ type ValuationRange struct{
 		High		int			`xml:",chardata"`
 		Currency	string		`xml:"currency"`
 	} `xml:"high"`
+}
+
+type Region struct {
+	Type					string	`xml:"type,attr"`
+	Name					string	`xml:"name,attr"`
+	Id						string	`xml:"id,attr"`
+	ZindexValue				string	`xml:"zindexValue"`
+	ZindexOneYearChange		string	`xml:"zindexOneYearChange"`
+	Links struct{
+		Overview		string		`xml:"overview"`
+		ForSaleByOwner	string		`xml:"forSaleByOwner"`
+		ForSale			string		`xml:"forSale"`
+	} `xml:"links"`
+}
+
+type OneWeekChange struct {
+	Deprecated	string	`xml:"deprecated,attr"`
 }
