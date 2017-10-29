@@ -6,8 +6,10 @@ import (
 	"io/ioutil"
 	"github.com/spf13/viper"
 	"os"
-	"github.com/jinzhu/gorm"
-    _ "github.com/jinzhu/gorm/dialects/sqlite"
+	// "github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	// "bytes"
+	"net/url"
 )
 
 
@@ -29,19 +31,21 @@ func getStations(body []byte) (*Searchresults, error){
 	return s, err
 }
 
-// func getSearchResult(){
-// 	res, err := http.Get("https://www.citibikenyc.com/stations/json")
-// 	if err != nil {
-// 		panic(err.Error())
-// 	}
+func getZillowSearchResult(address string, citystatezip string){
+	u, err := url.Parse("http://www.zillow.com/webservice/GetSearchResults.html")
+	checkErr(err)
 
-// 	body, err := ioutil.ReadAll(res.Body)
-// 	if err != nil {
-// 		panic(err.Error())
-// 	}
+	zwsId := viper.GetString("zwsId")
 
-// 	s, err := getStations([]byte(body))
-// }
+	q := u.Query()
+
+	q.Add("zws-id",zwsId)
+	q.Add("address", address)
+	q.Add("citystatezip",citystatezip)
+	u.RawQuery = q.Encode()
+	fmt.Println(u)
+}
+
 
 func getXMLFile() (*Searchresults, error) {
 	// Open our xmlFile
@@ -64,25 +68,27 @@ func getXMLFile() (*Searchresults, error) {
 	return s, err
 }
 
-func main(){
-	setUpConfig()
-	s, err := getXMLFile()
+func checkErr(err error){
 	if err != nil{
 		panic(err)
 	}
+}
 
-	os.Remove("test.db")
-	db, err := gorm.Open("sqlite3", "test.db")
-	if err != nil {
-	  panic("failed to connect database")
-	}
-	defer db.Close()
+func main(){
+	setUpConfig()
+	testing("sam","stillls")
+	// s, err := getXMLFile()
+	// checkErr(err)
+
+	// os.Remove("test.db")
+	// db, err := gorm.Open("sqlite3", "test.db")
+	// checkErr(err)
+	// defer db.Close()
   
-	// Migrate the schema
-	db.AutoMigrate(&Result{})
+	// // Migrate the schema
+	// db.AutoMigrate(&Result{})
 
-	db.Create(s.Response.Results[0])
+	// db.Create(s.Response.Results[0])
 
-	//fmt.Println(viper.GetString("zwsId"))
 }
 
