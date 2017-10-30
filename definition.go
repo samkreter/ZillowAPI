@@ -17,9 +17,32 @@ type Searchresults struct {
 	}	`xml:"response"`
 }
 
-type Result struct{
+type DeepResult struct{
 	Zpid 				string 		`xml:"zpid"`
 	Links				Links		`xml:"links"` //TODO - FIGURE THIS OUT 
+	Address				Address		`xml:"address"`
+	Zestimate			Zestimate	`xml:"zestimate"`
+	LocalRealEstate		[]Region	`xml:"localRealEstate>region"`
+	FIPScounty			int			`xml:"FIPScountry"`
+    UseCode				string		`xml:"useCode"`
+    TaxAssessmentYear	int			`xml:"taxAssessmentYear"`
+    TaxAssessment		float64		`xml:"taxAssessment"`
+    YearBuilt			int			`xml:"yearBuilt"`
+    LotSizeSqFt			int			`xml:"lotSizeSqFt"`
+    FinishedSqFt		int			`xml:"finishedSqFt"`
+    Bathrooms			float64		`xml:"bathrooms"`
+    Bedrooms			int			`xml:"bedrooms"`
+    LastSoldDate		string		`xml:"lastSoldDate"`
+	LastSoldPrice struct{
+		Value 		int64		`xml:",chardata"`
+		Currency	string		`xml:"currency,attr"`
+	} `xml:"lastSoldPrice"`
+}
+
+
+type Result struct{
+	Zpid 				string 		`xml:"zpid"`
+	Links				Links		`xml:"links"`
 	Address				Address		`xml:"address"`
 	Zestimate			Zestimate	`xml:"zestimate"`
 	LocalRealEstate		[]Region	`xml:"localRealEstate>region"`
