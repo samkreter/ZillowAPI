@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Comps:comps xmlns:Comps="http://www.zillow.com/static/xsd/Comps.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zillow.com/static/xsd/Comps.xsd http://www.zillowstatic.com/vstatic/64dd1c9/static/xsd/Comps.xsd">
+<!-- H:001 T:16ms S:5831 R:Thu Nov 02 09:19:30 PDT 2017 B:5.0.49502.26-hotfix_2017-11-01.75fee01~hotfix-platform-for-2017-11-01.87befd2 -->
+<request>
+<zpid>48749425</zpid>
+<count>5</count>
+</request>
+<message>
+<text>Request successfully processed</text>
+<code>0</code>
+</message>
+<response>
+<properties>
+<principal>
+<zpid>48749425</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749425_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749425_zpid/</comparables>
+</links>
+<address>
+<street>2114 Bigelow Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.637933</latitude>
+<longitude>-122.347938</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>1226000.0</taxAssessment>
+<yearBuilt>1924</yearBuilt>
+<lotSizeSqFt>4680</lotSizeSqFt>
+<finishedSqFt>3470</finishedSqFt>
+<bathrooms>3.0</bathrooms>
+<bedrooms>4</bedrooms>
+<lastSoldDate>11/26/2008</lastSoldDate>
+<lastSoldPrice currency="USD">995000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">2094970</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">21620</valueChange>
+<valuationRange>
+<low currency="USD">1990222</low>
+<high currency="USD">2199718</high>
+</valuationRange>
+<percentile>98</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</principal>
+<comparables>
+<comp score="10.0">
+<zpid>48689972</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/1716-4th-Ave-N-Seattle-WA-98109/48689972_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/1716-4th-Ave-N-Seattle-WA-98109/48689972_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48689972_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48689972_zpid/</comparables>
+</links>
+<address>
+<street>1716 4th Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.634567</latitude>
+<longitude>-122.349194</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>981000.0</taxAssessment>
+<yearBuilt>1928</yearBuilt>
+<lotSizeSqFt>5775</lotSizeSqFt>
+<finishedSqFt>1880</finishedSqFt>
+<bathrooms>2.0</bathrooms>
+<bedrooms>4</bedrooms>
+<lastSoldDate>11/15/2016</lastSoldDate>
+<lastSoldPrice currency="USD">1250000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">1392202</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">-47652</valueChange>
+<valuationRange>
+<low currency="USD">1322592</low>
+<high currency="USD">1461812</high>
+</valuationRange>
+<percentile>95</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="7.0">
+<zpid>48690235</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/2223-4th-Ave-N-Seattle-WA-98109/48690235_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/2223-4th-Ave-N-Seattle-WA-98109/48690235_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48690235_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48690235_zpid/</comparables>
+</links>
+<address>
+<street>2223 4th Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.638955</latitude>
+<longitude>-122.34978</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>1044000.0</taxAssessment>
+<yearBuilt>1907</yearBuilt>
+<lotSizeSqFt>4000</lotSizeSqFt>
+<finishedSqFt>2770</finishedSqFt>
+<bathrooms>3.0</bathrooms>
+<bedrooms>4</bedrooms>
+<totalRooms>9</totalRooms>
+<lastSoldDate>03/30/2017</lastSoldDate>
+<lastSoldPrice currency="USD">1325000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">1401046</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">-12435</valueChange>
+<valuationRange>
+<low currency="USD">1330994</low>
+<high currency="USD">1471098</high>
+</valuationRange>
+<percentile>95</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="3.0">
+<zpid>48749401</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/2308-Bigelow-Ave-N-Seattle-WA-98109/48749401_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/2308-Bigelow-Ave-N-Seattle-WA-98109/48749401_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749401_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749401_zpid/</comparables>
+</links>
+<address>
+<street>2308 Bigelow Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.639391</latitude>
+<longitude>-122.34791</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>1699000.0</taxAssessment>
+<yearBuilt>1927</yearBuilt>
+<lotSizeSqFt>5850</lotSizeSqFt>
+<finishedSqFt>3160</finishedSqFt>
+<bathrooms>4.0</bathrooms>
+<bedrooms>3</bedrooms>
+<lastSoldDate>06/28/2017</lastSoldDate>
+<lastSoldPrice currency="USD">2300000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">2361024</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">-713</valueChange>
+<valuationRange>
+<low currency="USD">2242973</low>
+<high currency="USD">2479075</high>
+</valuationRange>
+<percentile>99</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="5.0">
+<zpid>48749412</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/459-Lynn-St-Seattle-WA-98109/48749412_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/459-Lynn-St-Seattle-WA-98109/48749412_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749412_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749412_zpid/</comparables>
+</links>
+<address>
+<street>459 Lynn St</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.638884</latitude>
+<longitude>-122.347773</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>1197000.0</taxAssessment>
+<yearBuilt>1923</yearBuilt>
+<lotSizeSqFt>3900</lotSizeSqFt>
+<finishedSqFt>2800</finishedSqFt>
+<bathrooms>2.0</bathrooms>
+<bedrooms>4</bedrooms>
+<lastSoldDate>07/17/2017</lastSoldDate>
+<lastSoldPrice currency="USD">1615000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">1639323</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">1039</valueChange>
+<valuationRange>
+<low currency="USD">1557357</low>
+<high currency="USD">1721289</high>
+</valuationRange>
+<percentile>97</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="1.0">
+<zpid>48749424</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/2110-Bigelow-Ave-N-Seattle-WA-98109/48749424_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/2110-Bigelow-Ave-N-Seattle-WA-98109/48749424_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749424_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749424_zpid/</comparables>
+</links>
+<address>
+<street>2110 Bigelow Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.637825</latitude>
+<longitude>-122.347939</longitude>
+</address>
+<taxAssessmentYear>2016</taxAssessmentYear>
+<taxAssessment>1221000.0</taxAssessment>
+<yearBuilt>1924</yearBuilt>
+<lotSizeSqFt>4563</lotSizeSqFt>
+<finishedSqFt>3440</finishedSqFt>
+<bathrooms>4.0</bathrooms>
+<bedrooms>5</bedrooms>
+<lastSoldDate>04/28/2017</lastSoldDate>
+<lastSoldPrice currency="USD">2100000</lastSoldPrice>
+<zestimate>
+<amount currency="USD">2193270</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">-6937</valueChange>
+<valuationRange>
+<low currency="USD">2083607</low>
+<high currency="USD">2302933</high>
+</valuationRange>
+<percentile>98</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+</comparables>
+</properties>
+</response>
+</Comps:comps>

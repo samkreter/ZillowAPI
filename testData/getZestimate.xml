@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zestimate:zestimate xmlns:Zestimate="http://www.zillow.com/static/xsd/Zestimate.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zillow.com/static/xsd/Zestimate.xsd http://www.zillowstatic.com/vstatic/64dd1c9/static/xsd/Zestimate.xsd">
+<!-- H:001 T:5ms S:905 R:Thu Nov 02 09:22:12 PDT 2017 B:5.0.49502.26-hotfix_2017-11-01.75fee01~hotfix-platform-for-2017-11-01.87befd2 -->
+<request>
+<zpid>48749425</zpid>
+</request>
+<message>
+<text>Request successfully processed</text>
+<code>0</code>
+</message>
+<response>
+<zpid>48749425</zpid>
+<links>
+<homedetails>http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/</homedetails>
+<graphsanddata>http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/#charts-and-data</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749425_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749425_zpid/</comparables>
+</links>
+<address>
+<street>2114 Bigelow Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.637933</latitude>
+<longitude>-122.347938</longitude>
+</address>
+<zestimate>
+<amount currency="USD">2094970</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange currency="USD" duration="30">21620</valueChange>
+<valuationRange>
+<low currency="USD">1990222</low>
+<high currency="USD">2199718</high>
+</valuationRange>
+<percentile>98</percentile>
+</zestimate>
+<localRealEstate>
+<region id="271856" type="neighborhood" name="East Queen Anne">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/</overview>
+<forSaleByOwner>http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+<regions>
+<zipcode-id>99569</zipcode-id>
+<city-id>16037</city-id>
+<county-id>207</county-id>
+<state-id>59</state-id>
+</regions>
+</response>
+</Zestimate:zestimate>
