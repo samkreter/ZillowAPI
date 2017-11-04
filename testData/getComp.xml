@@ -1,0 +1,295 @@
+<Comps:comps xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Comps="http://www.zillow.com/static/xsd/Comps.xsd" xsi:schemaLocation="http://www.zillow.com/static/xsd/Comps.xsd http://www.zillowstatic.com/vstatic/64dd1c9/static/xsd/Comps.xsd">
+<request>
+<zpid>48749425</zpid>
+<count>5</count>
+</request>
+<message>
+<text>Request successfully processed</text>
+<code>0</code>
+</message>
+<response>
+<properties>
+<principal>
+<zpid>48749425</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/2114-Bigelow-Ave-N-Seattle-WA-98109/48749425_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48749425_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48749425_zpid/</comparables>
+</links>
+<address>
+<street>2114 Bigelow Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.637933</latitude>
+<longitude>-122.347938</longitude>
+</address>
+<zestimate>
+<amount currency="USD">2094970</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">21620</valueChange>
+<valuationRange>
+<low currency="USD">1990222</low>
+<high currency="USD">2199718</high>
+</valuationRange>
+<percentile>98</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</principal>
+<comparables>
+<comp score="11.0">
+<zpid>48690076</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/309-Newton-St-Seattle-WA-98109/48690076_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/309-Newton-St-Seattle-WA-98109/48690076_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48690076_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48690076_zpid/</comparables>
+</links>
+<address>
+<street>309 Newton St</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.636324</latitude>
+<longitude>-122.351433</longitude>
+</address>
+<zestimate>
+<amount currency="USD">1214546</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">4120</valueChange>
+<valuationRange>
+<low currency="USD">1153819</low>
+<high currency="USD">1275273</high>
+</valuationRange>
+<percentile>93</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="10.0">
+<zpid>48689963</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/361-Blaine-St-Seattle-WA-98109/48689963_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/361-Blaine-St-Seattle-WA-98109/48689963_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48689963_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48689963_zpid/</comparables>
+</links>
+<address>
+<street>361 Blaine St</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.634705</latitude>
+<longitude>-122.350054</longitude>
+</address>
+<zestimate>
+<amount currency="USD">1260536</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">-11918</valueChange>
+<valuationRange>
+<low currency="USD">1197509</low>
+<high currency="USD">1323563</high>
+</valuationRange>
+<percentile>94</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="6.0">
+<zpid>48689866</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/405-Hayes-St-Seattle-WA-98109/48689866_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/405-Hayes-St-Seattle-WA-98109/48689866_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48689866_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48689866_zpid/</comparables>
+</links>
+<address>
+<street>405 Hayes St</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.633854</latitude>
+<longitude>-122.349294</longitude>
+</address>
+<zestimate>
+<amount currency="USD">1718298</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">-12100</valueChange>
+<valuationRange>
+<low currency="USD">1632383</low>
+<high currency="USD">1804213</high>
+</valuationRange>
+<percentile>97</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="10.0">
+<zpid>48689972</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/1716-4th-Ave-N-Seattle-WA-98109/48689972_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/1716-4th-Ave-N-Seattle-WA-98109/48689972_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48689972_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48689972_zpid/</comparables>
+</links>
+<address>
+<street>1716 4th Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.634567</latitude>
+<longitude>-122.349194</longitude>
+</address>
+<zestimate>
+<amount currency="USD">1392202</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">-47652</valueChange>
+<valuationRange>
+<low currency="USD">1322592</low>
+<high currency="USD">1461812</high>
+</valuationRange>
+<percentile>95</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+<comp score="7.0">
+<zpid>48690235</zpid>
+<links>
+<homedetails>
+http://www.zillow.com/homedetails/2223-4th-Ave-N-Seattle-WA-98109/48690235_zpid/
+</homedetails>
+<graphsanddata>
+http://www.zillow.com/homedetails/2223-4th-Ave-N-Seattle-WA-98109/48690235_zpid/#charts-and-data
+</graphsanddata>
+<mapthishome>http://www.zillow.com/homes/48690235_zpid/</mapthishome>
+<comparables>http://www.zillow.com/homes/comps/48690235_zpid/</comparables>
+</links>
+<address>
+<street>2223 4th Ave N</street>
+<zipcode>98109</zipcode>
+<city>Seattle</city>
+<state>WA</state>
+<latitude>47.638955</latitude>
+<longitude>-122.34978</longitude>
+</address>
+<zestimate>
+<amount currency="USD">1401046</amount>
+<last-updated>10/31/2017</last-updated>
+<oneWeekChange deprecated="true"/>
+<valueChange duration="30" currency="USD">-12435</valueChange>
+<valuationRange>
+<low currency="USD">1330994</low>
+<high currency="USD">1471098</high>
+</valuationRange>
+<percentile>95</percentile>
+</zestimate>
+<localRealEstate>
+<region name="East Queen Anne" id="271856" type="neighborhood">
+<zindexValue>821,600</zindexValue>
+<links>
+<overview>
+http://www.zillow.com/local-info/WA-Seattle/East-Queen-Anne/r_271856/
+</overview>
+<forSaleByOwner>
+http://www.zillow.com/east-queen-anne-seattle-wa/fsbo/
+</forSaleByOwner>
+<forSale>http://www.zillow.com/east-queen-anne-seattle-wa/</forSale>
+</links>
+</region>
+</localRealEstate>
+</comp>
+</comparables>
+</properties>
+</response>
+</Comps:comps>
+<!--
+ H:007  T:87ms  S:4198  R:Thu Nov 02 07:49:38 PDT 2017  B:5.0.49502.26-hotfix_2017-11-01.75fee01~hotfix-platform-for-2017-11-01.87befd2 
+-->
